@@ -1,7 +1,6 @@
-import { runCmd } from "./run";
 import fixturez from "fixturez";
-import { exec } from "tinyexec";
 import stripAnsi from "strip-ansi";
+import { exec } from "tinyexec";
 
 const f = fixturez(__dirname);
 
